@@ -1,0 +1,200 @@
+html {
+    box-sizing: border-box;
+    background: #DDBABA;
+}
+
+header {
+    background-color: #fff;
+    height: 70px;
+}
+
+.logo {
+    height: 70px;
+    width: 180px;
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+    height: 30px;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    line-height: 72px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 8px;
+}
+
+.menu a {
+    cursor: pointer;
+    color: #414c59;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    padding-bottom: 23px;
+    border-bottom: 4px #0047a8 solid;
+}
+
+.container {
+    max-width: 1200px;
+   /* border: 1px solid red; */
+}
+
+.submenu {
+    position: absolute;
+    z-index: auto;
+    display: none;
+    width: 200px;
+    margin: 0;
+    padding: 15px 0;
+    background-color: #e4e5eb;
+}
+
+.menu .submenu li {
+    width: auto;
+    line-height: 30px;
+    display: table;
+}
+ 
+.menu .submenu li a {
+    border-bottom: inherit;
+}
+
+.menu > li:hover .submenu {
+    display: block;
+}
+
+.webinar {
+    padding-top: 9px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 12px;
+    width: 80px;
+    height: 70px;
+    background: url(../img/webinars_label.png) no-repeat;
+    float: left;
+}
+
+.menu .header_right .webinar a {
+    color: #fff;
+    border-bottom: inherit;
+}
+
+.menu .header_right a {
+    border-bottom: inherit;
+}
+
+.phone {
+    margin-right: 42px;
+    width: 150px;
+    float: left;
+    padding: 20px 0 0 25px;
+}
+
+.phone_number {
+    color: #949ea9;
+    display: block;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.phone_text {
+    font-size: 13px;
+    color: #949ea9;
+    display: block;
+    line-height: 10px;
+}
+
+.button_entry {
+    border: 1px solid #789ec6;
+    border-radius: 5px;
+    margin: 21px 0 0 0;
+    float: left;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.button_entry:hover {
+    background-color: #688aad;
+}
+
+.button_icon {
+    height: 16px;
+    margin: 0 0 1px 10px;
+}
+
+
+.menu .header_right .button_entry a {
+    padding: 10px 15px 10px 5px;
+    color: #789ec6;
+    border-bottom: inherit;
+    border: 0px;
+}
+
+.menu .header_right .button_entry a:hover {
+    color: #fff;
+}
+
+.bgtl {
+    background-image: url(../img/bg.jpg);
+    z-index: 5;
+    height: 360px;
+    background-attachment: fixed;
+    background-position: center ; 
+}
+
+.bgcolor {
+    background: rgba(0,71,168,.7);
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 60px;
+    line-height: 1;
+    color: #fff;
+    padding-top: 72px;
+    margin: 0;
+}
+
+.textsec {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 25px;
+    background-color: #d62450;
+    color: #d2d2d2;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: "RobotoBold", sans-serif;
+}
+
+.bgtl .bgcolor a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button_q {
+    text-align: center;
+    margin-bottom: 60px;
+}
